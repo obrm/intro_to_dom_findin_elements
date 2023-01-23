@@ -1,35 +1,35 @@
 // Get the button element by its ID
-let changeButton = document.getElementById("changeButton");
+const changeButton = document.getElementById("changeButton");
 
 // Add an event listener to the button that will run a function when the button is clicked
 changeButton.addEventListener("click", function () {
 
   // Change the text content of all <p> elements
-  let paragraphs = document.getElementsByTagName("p");
+  const paragraphs = document.getElementsByTagName("p");
   for (let i = 0; i < paragraphs.length; i++) {
     paragraphs[i].innerHTML = "Changed!";
   }
 
   // Change the class attribute of all elements with class "change-me"
-  let changeMe = document.getElementsByClassName("change-me");
+  const changeMe = document.getElementsByClassName("change-me");
   for (let i = 0; i < changeMe.length; i++) {
     changeMe[i].setAttribute("class", "changed");
   }
 
   // Change the color of all elements to blue
-  let elements = document.querySelectorAll("*");
+  const elements = document.querySelectorAll("*");
   for (let i = 0; i < elements.length; i++) {
     elements[i].style.color = "blue";
   }
 
   // Remove the element with ID "p3"
-  let p3 = document.getElementById("p3");
+  const p3 = document.getElementById("p3");
   p3.parentNode.removeChild(p3);
 
   // Create a new element and append it to the <div> with ID "newDiv"
-  let newElem = document.createElement("p");
+  const newElem = document.createElement("p");
   newElem.innerHTML = "This is a new element";
-  let newDiv = document.getElementById("newDiv");
+  const newDiv = document.getElementById("newDiv");
   newDiv.appendChild(newElem);
 });
 
