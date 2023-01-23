@@ -2,9 +2,9 @@
 
 # Introduction to the DOM
 
-The Document Object Model (DOM) is a programming interface for HTML and XML documents, and JavaScript is a programming language. The DOM represents the structure of a document (such as an HTML or XML document) in a tree-like format, and provides a way for programming languages like JavaScript to access and manipulate the elements of the document. Because the DOM and JavaScript serve different purposes, the DOM methods and properties for manipulating the DOM are not considered part of the JavaScript language. Instead, they are part of the DOM API, which allows JavaScript to interact with the structure of a document.
+The Document Object Model (DOM) is a programming interface for HTML documents, and JavaScript is a programming language. The DOM represents the structure of a document (such as an HTML document) in a tree-like format, and provides a way for programming languages like JavaScript to access and manipulate the elements of the document. Because the DOM and JavaScript serve different purposes, the DOM methods and properties for manipulating the DOM are not considered part of the JavaScript language. Instead, they are part of the DOM API, which allows JavaScript to interact with the structure of a document.
 
-A programming interface (API) is a set of rules and protocols that allow different software programs to communicate with each other. In the case of the Document Object Model (DOM), the API provides a way for a programming language like JavaScript to access and manipulate the elements of an HTML or XML document, such as adding, removing, or modifying elements.
+A programming interface (API) is a set of rules and protocols that allow different software programs to communicate with each other. In the case of the Document Object Model (DOM), the API provides a way for a programming language like JavaScript to access and manipulate the elements of an HTML document, such as adding, removing, or modifying elements.
 
 When a web page is loaded, the browser creates a representation of the page in memory, known as the Document Object Model (DOM). The DOM is a hierarchical tree-like structure that consists of a root node (the document object), and child nodes that represent the elements, attributes, and text content of the page.
 
@@ -49,4 +49,4 @@ NodeList is mainly used to access elements by CSS selectors or by namespace. It 
 
 HTMLCollection and NodeList are not arrays, but they have similar properties and methods to arrays, such as length, item(), and [].
 
-In summary, both HTMLCollection and NodeList are object collections that allow you to access elements in an HTML or XML document in a similar way, but they have different methods and properties, and are designed for different types of access to elements.
+In summary, both HTMLCollection and NodeList are object collections that allow you to access elements in an HTML document in a similar way, but they have different methods and properties, and are designed for different types of access to elements.
